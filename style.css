@@ -4,75 +4,103 @@
     list-style-type: none;
     text-decoration: none;    
 }
+/* */
+.colunae{
+    width: 515.5px; 
+    height: 170em; 
+    float: left; 
+    background-color: #95AB7C;
+}
+.colunad{
+    width: 515.5px;
+    height: 170em;
+    float: right;
+    background-color: #95AB7C;
+}
 
 header{
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 50px;
+    margin-left: 515.5px;
+    position: sticky;
+    top: 0px;
     display: flex;
-    justify-content: space-around;
+    border-bottom: 1px solid #314C1D;
+}
+header img{
+    width: 38px;
+    margin: 5px;
 }
 nav{
     font-family: 'Inknut Antiqua';
+    font-size: 7px;
     display: flex;
     align-items: center;
 }
 nav ul{
     display: flex;
 }
-nav li{
-    margin-right: 1em;
-}
 nav a{
-    color: #314C1D;   
+    color: #314C1D;
+}
+nav li{
+    margin-right: 5px;
 }
 
+section.banner{
+    margin-left: 515.5px;
+    width: 320px;
+}
 .banner{
     background-image: url(imagens/banner-cpsi.png);
     background-repeat: no-repeat;
-    border-top: 2px solid #314C1D;
 }
-/*.banner article{
+.banner article{
     text-align: center;
     color: #314C1D;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10em;
 }
 .banner h1{
-    font-size: 5em;
+    font-size: 22px;
+    margin-top: 30px;
 }
 .banner p{
-    font-size: 2.3em;
-    margin-bottom: 0.5em;
+    font-size: 10px;
+    margin-bottom: 4px;
 }
 .banner a{
-    text-decoration: none;
+    font-size: 6px;
     color: #FFFFFF; 
 }
 .saibamais{
     background-color: #314C1D;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    width: 150px;
+    padding: 4px;
+    border-radius: 3px;
+    width: 56px;
+    margin-bottom: 25px;
 }
 
 .projeto{
+    width: 320px;
+    margin-left: 515.5px;
     background-color: #314C1D;
     color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
+    padding: 10px;
 }
 .projeto h2{
-    padding: 1em 10em;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
 }
 .projeto p{
-    padding: 0 1em;
-    font-size: 1.84em;
-}
-.exprojeto{
-    padding: 3em 1.5em 3em 0;
+    margin-left: 25px;
+    font-size: 8px;
 }
 
-.modalidades h2{
+/*.modalidades h2{
     text-align: center;
     margin-top: 1em;
 }

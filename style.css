@@ -83,29 +83,36 @@ section.banner{
     margin-bottom: 25px;
 }
 
-.projeto{
+section.projeto{
     width: 320px;
     margin-left: 515.5px;
     background-color: #314C1D;
     color: #FFFFFF;
-    padding: 10px;
+    /*padding: 10px; tirar padding e usar margin nos itens!!!*/
 }
 .projeto h2{
     text-align: center;
     font-size: 10px;
-    margin-bottom: 5px;
+    padding: 10px 0 5px;
 }
 .projeto p{
-    margin-left: 25px;
+    /*margin-left: 25px;*/
+    padding: 0  0 15px 25px;
     font-size: 8px;
 }
 
-/*.modalidades h2{
+section.modalidades{
+    margin-left: 515.5px;
+    width: 320px;
+}
+.modalidades h2{
     text-align: center;
-    margin-top: 1em;
+    font-size: 10px;
+    margin: 5px 0;
 }
 .modalidades h3{
-    margin: 1em;
+    font-size: 8px;
+    margin: 7px;
 }
 .modalidades ul{
     display: flex;
@@ -113,22 +120,34 @@ section.banner{
     margin: 0 1em;
 }
 
+section.horarios{
+    margin-left: 515.5px;
+    width: 320px;
+}
 .horarios{
     background-color: #314C1D;
-    padding: 1em;
+    /*padding: 1em;*/
 }
 table{
     margin: auto;
+    width: 310px;
 }
 caption, th, td:first-child{
     background-color: #B5CF92;
-    padding: 1em;
+    /*padding: 1em;*/
+}
+caption{
+    font-size: 9px;
+    padding: 3px;
+}
+th, td{
+    font-size: 7px;
 }
 td{
     background-color: #FFFFFF;
 }
 
-.inscricoes{
+/*.inscricoes{
     text-align: center;
 }
 .inscricoes ul{

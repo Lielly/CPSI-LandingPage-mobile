@@ -126,7 +126,7 @@ section.horarios{
 }
 .horarios{
     background-color: #314C1D;
-    /*padding: 1em;*/
+    border-bottom: 3px solid #314C1D;
 }
 table{
     margin: auto;
@@ -134,62 +134,147 @@ table{
 }
 caption, th, td:first-child{
     background-color: #B5CF92;
-    /*padding: 1em;*/
 }
 caption{
     font-size: 9px;
     padding: 3px;
+    margin-top: 5px;
 }
 th, td{
-    font-size: 7px;
+    font-size: 8px;
+}
+th{
+    width: 55px;
+    height: 22px; 
+}
+th:first-child{
+    width: 44px;
+    height: 22px;
+}
+td:first-child{
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
 }
 td{
+    width: 55px;
     background-color: #FFFFFF;
 }
 
-/*.inscricoes{
+section.inscricoes{
+    margin-left: 515.5px;
+    width: 320px;
+}
+.inscricoes{
     text-align: center;
+}
+.inscricoes h2{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.inscricoes p{
+    font-size: 8px;
+    margin: 3px 0 7px;
 }
 .inscricoes ul{
     display: flex;
-    justify-content: space-evenly;
-    /alinhar ao centro e personalizar botões/
+    justify-content: center;
+    font-size: 8px;
+}
+.login{
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    padding: 3px;
+    width: 72px;
+    border: 1px solid #314C1D;
+    border-radius: 5px;
+}
+.login a{
+    color: #314C1D;
+}
+.cadastro{
+    background-color: #314C1D;
+    padding: 3px;
+    width: 72px;
+    border: 1px solid #314C1D;
+    border-radius: 5px;
+}
+.cadastro a{
+    color: #FFFFFF;
 }
 
+section.contato{
+    margin-left: 515.5px;
+    width: 320px;
+}
 .contato{
     text-align: center;
+}
+.contato h2{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.contato p{
+    font-size: 8px;
+    margin: 3px 0 7px;
 }
 .contato div{
     display: flex;
     justify-content: center;
 }
-
-section h2{
-    text-align: center;
+.infos{
+    text-align: left;
+    /*font-size: 8px; (ajustar tamanho da fonte e espaçamento)*/
+    margin-left: 2px;
+    margin-right: 10px;
 }
-.equipe{
+/*.contato ul{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}*/
+
+section.equipe{
+    margin-left: 515.5px;
+    width: 320px;
+}
+.equipe h2{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
 }
 .equipe div{
     display: flex;
-    align-items: center;
+    height: 50px;
 }
 .equipe img{
     background-color: #314C1D;
-    border-top-left-radius: 5em;
-    border-bottom-left-radius: 5em;
+    border: 1px solid #314C1D;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
 }
 .equipe ul{
     background-color: #314C1D;
-    height: 150px;
-    width: 200px;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .equipe li{
     color: #FFFFFF;
     align-content: center;
 }
+.equipe li:first-child{
+    font-size: 9px;
+}
+.equipe li:last-child{
+    font-size: 7px;
+}
+/*.equipe div{
+    display: flex;
+    align-items: center;
+} (alinhar texto, espaçar cards...)
+
+
 
 footer{
     background-color: #314C1D;

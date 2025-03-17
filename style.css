@@ -2,17 +2,18 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    text-decoration: none;    
+    text-decoration: none;
+    /*font-family: "Inter", sans-serif;*/  
 }
-/* */
+
 .colunae{
-    width: 515.5px; 
-    height: 170em; 
-    float: left; 
+    width: 515.5px;
+    height: 170em;
+    float: left;
     background-color: #95AB7C;
 }
 .colunad{
-    width: 515.5px;
+    width: 515.4px;
     height: 170em;
     float: right;
     background-color: #95AB7C;
@@ -22,7 +23,7 @@ header{
     background-color: #FFFFFF;
     width: 320px;
     height: 50px;
-    margin-left: 515.5px;
+    margin-left: 515.6px;
     position: sticky;
     top: 0px;
     display: flex;
@@ -73,7 +74,7 @@ section.banner{
 }
 .banner a{
     font-size: 6px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 .saibamais{
     background-color: #314C1D;
@@ -88,7 +89,6 @@ section.projeto{
     margin-left: 515.5px;
     background-color: #314C1D;
     color: #FFFFFF;
-    /*padding: 10px; tirar padding e usar margin nos itens!!!*/
 }
 .projeto h2{
     text-align: center;
@@ -96,7 +96,6 @@ section.projeto{
     padding: 10px 0 5px;
 }
 .projeto p{
-    /*margin-left: 25px;*/
     padding: 0  0 15px 25px;
     font-size: 8px;
 }
@@ -145,7 +144,7 @@ th, td{
 }
 th{
     width: 55px;
-    height: 22px; 
+    height: 22px;
 }
 th:first-child{
     width: 44px;
@@ -222,11 +221,18 @@ section.contato{
     display: flex;
     justify-content: center;
 }
+.logos li{
+    margin-bottom: 10px;
+}
 .infos{
+    margin-top: 6px;
     text-align: left;
-    /*font-size: 8px; (ajustar tamanho da fonte e espaçamento)*/
+    font-size: 8px; /*(ajustar tamanho da fonte e espaçamento)*/
     margin-left: 2px;
     margin-right: 10px;
+}
+.infos li{
+    margin-bottom: 18px;
 }
 /*.contato ul{
     display: flex;
@@ -247,11 +253,11 @@ section.equipe{
     display: flex;
     height: 50px;
 }
-.equipe img{
+.equipe img, .equipe ul{
     background-color: #314C1D;
-    border: 1px solid #314C1D;
+    /*remover o raidus(se funcionar sem)
     border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
+    border-bottom-left-radius: 60px;*/
 }
 .equipe ul{
     background-color: #314C1D;
@@ -269,6 +275,7 @@ section.equipe{
 .equipe li:last-child{
     font-size: 7px;
 }
+
 /*.equipe div{
     display: flex;
     align-items: center;

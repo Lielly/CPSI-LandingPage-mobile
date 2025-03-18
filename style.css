@@ -234,11 +234,6 @@ section.contato{
 .infos li{
     margin-bottom: 18px;
 }
-/*.contato ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}*/
 
 section.equipe{
     margin-left: 515.5px;
@@ -247,43 +242,87 @@ section.equipe{
 .equipe h2{
     text-align: center;
     font-size: 10px;
-    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.equipe div{
+div.coordenadores{
     display: flex;
-    height: 50px;
+    justify-content: space-evenly;
 }
-.equipe img, .equipe ul{
-    background-color: #314C1D;
-    /*remover o raidus(se funcionar sem)
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;*/
-}
-.equipe ul{
-    background-color: #314C1D;
-    height: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.equipe li{
+div.card{
+    display: flex;
     color: #FFFFFF;
-    align-content: center;
+    background-color: #314C1D;
+    height: 50px;
+    width: 140px;
+    border-radius: 25px 10px 10px 25px;
 }
-.equipe li:first-child{
+.card img{
+    border: 1px solid #314C1D;
+    border-radius: 75px;
+    margin-right: 3px;
+}
+.card ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.card li:first-child{
     font-size: 9px;
 }
-.equipe li:last-child{
+.card li:last-child{
     font-size: 7px;
 }
 
-/*.equipe div{
-    display: flex;
-    align-items: center;
-} (alinhar texto, espaçar cards...)
-
-
-
 footer{
+    margin-left: 515.5px;
+    width: 320px;
     background-color: #314C1D;
     color: #FFFFFF;
-}*/
+    margin-top: 10px;
+}
+footer h4{
+    text-align: center;
+    font-size: 10px;
+    padding: 7px 0;
+}
+div.localizacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+address{
+    font-size: 8px;
+    width: 150px;
+    margin-left: 5px;
+}
+.site{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.site img{
+    height: 31px;
+    width: 31px;
+    margin: auto
+}
+.site p:first-child{
+    font-size: 8px;
+}
+.site p:last-child{
+    font-size: 5px;
+}
+.acessar{
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 3px;
+    width: 50px;
+    border: 1px solid #7EB262;
+    border-radius: 5px;
+    font-size: 6px;
+}
+.acessar a{
+    text-align: center;
+    color: #7EB262;
+}
